@@ -5,23 +5,23 @@ class Spoolway < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/marvingygas/spoolway/releases/download/v0.15.0/spoolway-macos-arm64"
-      sha256 "5b5efb44cadc5e33f4f50add979437aec76e14f9639570714a7d2c84494eb918"
+      url "https://github.com/marvingygas/spoolway/releases/download/v0.16.0/spoolway-macos-arm64"
+      sha256 "a752e495ac71bcdf72e9c4016b6af2e269ed391daf70f98d8f7d549417358f1a"
     end
     on_intel do
-      url "https://github.com/marvingygas/spoolway/releases/download/v0.15.0/spoolway-macos-x64"
-      sha256 "04dc0b4434aaf5633db86cc312cf5358494cb74158b76c5e21abc5845a96621c"
+      url "https://github.com/marvingygas/spoolway/releases/download/v0.16.0/spoolway-macos-x64"
+      sha256 "043edf656c9eb278543be892ef38be6337772b8d5414682be3260d8034b34471"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/marvingygas/spoolway/releases/download/v0.15.0/spoolway-linux-arm64"
-      sha256 "6059018cc09ea8501de1d80ce8e4a15f6441fbec7dbe04f0a4514e14abbc23f8"
+      url "https://github.com/marvingygas/spoolway/releases/download/v0.16.0/spoolway-linux-arm64"
+      sha256 "33201319291e24cb678362c8c82141e214d83c84a037c7ffbbf5c9d8376a4684"
     end
     on_intel do
-      url "https://github.com/marvingygas/spoolway/releases/download/v0.15.0/spoolway-linux-x64"
-      sha256 "1ac805a666b79b2b4d8dcefedd22928a5d7411b187f71f93e263f7f0c341b651"
+      url "https://github.com/marvingygas/spoolway/releases/download/v0.16.0/spoolway-linux-x64"
+      sha256 "25783a4aea03aa346f941be644975b2117ca878ccfd52916ce8fd4d6235a3b54"
     end
   end
 
